@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+width: 1000px;
+margin: 0 auto;
+}
+.photo {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.photo img {
+  width: 100%;
+  height: auto;
+}

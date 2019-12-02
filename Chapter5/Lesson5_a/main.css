@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+strong {
+  display: block;
+}
+
+ul {
+  display: table;
+}
+li {
+  display: table-cell;
+  border: 1px solid #DDDDDD;
+  padding: 5px;
+}

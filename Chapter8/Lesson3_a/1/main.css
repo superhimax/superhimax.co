@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.icon {
+  padding-left: 30px;
+  background: url("icon2.png") no-repeat left center;
+  background-size: 25px;
+}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+body {
+  padding: 100px 0;
+  background-color: beige;
+  text-align: center;
+}
+.photo img {
+  border: 10px solid #FFF;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.4);
+}

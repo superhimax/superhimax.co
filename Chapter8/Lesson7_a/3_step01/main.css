@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body {
+  padding: 30px;
+}
+table {
+  border: solid 1px #666666;
+  border-collapse: collapse;
+}
+thead {
+  background-color: #dddddd;
+}
+th {
+  text-align: left;
+}
+tbody tr:last-child {
+    background-color: beige;
+}
+th,
+td {
+  border: solid 1px #666666;
+  padding: 10px;
+  vertical-align: top;
+}

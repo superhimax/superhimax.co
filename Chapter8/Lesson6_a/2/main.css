@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body {
+  padding: 30px;
+  font-family: serif;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 16px;
+}
+ol {
+  margin-top: 1em;
+  padding: 0;
+  list-style: cjk-ideographic; //リストタイプを、漢数字にする
+}
+div {
+    -ms-writing-mode: tb-rl; //Internet Explorer独自の値をベンダープレフィックスをつけて書く
+    writing-mode: vertical-rl; //無印のプロパティを併記する
+}

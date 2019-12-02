@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+  padding: 100px 0;
+  background-color: beige;
+  text-align: center;
+}
+.photo img {
+  border: 10px solid #FFF;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+
+/* 学習2 STEP03 */
+h1 {
+  width: 720px;
+  margin: 0 auto 50px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  border-left: 10px solid orange;
+  box-shadow: -10px 0 0 0px green;
+  font-size: 24px;
+}
+
+/* 学習2 STEP04 */
+.comment {
+  width: 600px;
+  margin: 30px auto 0;
+  background-color: white;
+  border: 1px solid #8d8d8d;
+  box-shadow: inset 2px 2px 5px 0 rgba(0,0,0,0.3);
+}

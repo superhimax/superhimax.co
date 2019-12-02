@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+.recipe {
+  width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: beige;
+}
+h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  color: cadetblue;
+}
+.photo {
+  margin: 20px 0;
+  text-align: center;
+}
+.flexbox {
+  display: flex;
+  width: 700px;
+  margin: 20px auto;
+}
+.zairyo {
+  width: 50%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.flexbox h2 {
+  padding: 5px;
+  font-size: 16px;
+  background-color: darkkhaki;
+  color: #FFF;
+  font-weight: normal;
+}
+.zairyo table {
+  text-align: left;
+  font-size: 14px;
+}
+.zairyo table th,
+.zairyo table td {
+  padding: 2px;
+  border-bottom: 1px dotted #bdb76b;
+}
+.zairyo table th span {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+.zairyo table td {
+  padding-left: 10px;
+}
+.text {
+  width: 50%;
+}
+.text ol {
+  margin: 0;
+  padding: 0;
+}
+.text li {
+  margin: 0 0 10px 1.5em;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.text p {
+  font-size: 12px;
+  line-height: 1.3;
+}
