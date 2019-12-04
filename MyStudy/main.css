@@ -10,3 +10,14 @@ h1{
 #backbottom{
     text-align:center;
 }
+
+a:hover{
+    color:pink;
+}
+a:visited{
+    font-style: normal;
+    color:black;
+}
+.shoeimg{
+    width: 100%;
+}
