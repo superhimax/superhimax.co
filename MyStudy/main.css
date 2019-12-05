@@ -21,3 +21,20 @@ a:visited{
 .shoeimg{
     width: 100%;
 }
+
+table{
+    width:650px;
+    border:solid 1px #666666;
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+}
+th,td{
+    vertical-align:top;
+    text-align:left;
+    padding: 10px;
+    border:solid 1px black;
+}
+th{
+    text-align: left;
+    background-color:#666666;
+}
