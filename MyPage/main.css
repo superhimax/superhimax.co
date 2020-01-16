@@ -2,7 +2,9 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-
+img {
+    max-width: 100%;
+}
 .header_img {
     width: 30px;
 }
@@ -42,4 +44,23 @@ header {
 
 footer {
     text-align: center;
+}
+
+.profile_img {
+    width: 400px;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.comment {
+    max-width: 780px;
+    padding: 0px 35px;
+    margin: 10px 0 0 40px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
